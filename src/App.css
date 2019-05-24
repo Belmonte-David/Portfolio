@@ -1,0 +1,91 @@
+.App {
+  text-align: center;
+}
+
+.BackGround {  
+  background-image: url("./images/Background.jpg");
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.Cover{
+  background-color: black;
+  color: rgb(173, 173, 173);
+  font-family: 'Abel', sans-serif;
+  text-align: center;
+  font-size: 250%;  
+  opacity: 0.7;
+  margin-left: 25%;
+  margin-right: 25%;
+  padding: 5%;
+  margin-top: 5%;
+  width: 700;
+  height: 650;  
+  }
+
+.Block{
+  background-color: #000000BB;
+  width: 700;
+  height: 650;  
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 25%;
+  margin-right: 25%;
+  padding: 5%;
+  color: rgb(173, 173, 173);
+}
+  
+.Titles{
+        color: rgb(173, 173, 173);
+        font-family: 'Abel', sans-serif;
+        text-align: center;
+        font-size: 250%;       
+}
+
+.TexteSkills{
+  color: rgb(173, 173, 173);
+  font-family: 'Abel', sans-serif;
+}
+
+.SkillsTitles{
+  text-align: center;
+}
+
+.CardBody{
+  background-color: black;
+}  
+
+.titleReal{
+  font-weight: bold;
+  color: rgb(51, 102, 177);
+}
+
+.buttonColor{
+  background-color: transparent;
+  color:white
+}
+
+.navBar{
+  background-color:black;
+  border-bottom-style: groove;
+  border-color: #444;  
+  position: fixed;
+  color:black;
+  justify-content: center;
+  opacity:0.7;
+  }
+
+.button{
+  border: none;
+  font-size: 1.2em;
+  color:grey;
+  padding:'0 0 30px 30px';
+}
+
+.button.active {
+  text-decoration: underline;
+}
