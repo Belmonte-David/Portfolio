@@ -4,10 +4,10 @@ import NavBar from './NavBar';
 import {
     Card, Button, CardImg, CardTitle, CardText, CardGroup, CardBody} from 'reactstrap';
 import './App.css';
-import Paques from './images/Paques.jpg';
-import Yoshilogo from './images/Yoshilogo.jpg';
-import PokeReact from './images/PokeReact.jpg';
-import Background from './images/Background.jpg';
+import Paques from './images/Paques.png';
+import Yoshilogo from './images/Yoshilogo1.png';
+import PokeReact from './images/Pokereact.png';
+import Appmobile from './images/Appmobile.png';
 
 class Works extends Component {
     constructor(props) {
@@ -26,11 +26,11 @@ class Works extends Component {
                     <br />
                     <CardGroup>
                     <Card>
-                            <CardImg top width="100%" src={Background} alt="Card image cap" />
+                            <CardImg top width="100%" src={Appmobile} alt="Card image cap" />
                             <CardBody className='CardBody'>
                                 <CardTitle className='titleReal'>Plateforme mobile d'e-Learning</CardTitle>
                                 <CardText>Réalisation en équipe d'une application mobile en Javascript/React (8 semaines) pour un client réel.</CardText>
-                                <NavLink to='/'><Button className='buttonColor'>En savoir +</Button></NavLink>
+                                <NavLink to='/works'><Button className='buttonColor'>En savoir +</Button></NavLink>
                             </CardBody>
                         </Card>
                         <Card>

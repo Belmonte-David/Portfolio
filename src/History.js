@@ -10,8 +10,7 @@ class History extends Component {
     render() {
         return (
             <div>
-                <NavBar />
-                
+                <NavBar />                
                 <div className='Block'>
                 <h1 className='Titles'>De comédien à codeur !</h1>
                 <br/>
