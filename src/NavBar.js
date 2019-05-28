@@ -35,7 +35,7 @@ class NavBar extends Component {
                 Accueil             
             </NavLink>
             <NavLink to="/History" className="button">             
-                Bio    
+                De comédien à codeur    
             </NavLink>
             <NavLink to="/Skills" className="button">            
                 Compétences       
