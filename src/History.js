@@ -14,13 +14,11 @@ class History extends Component {
                 <div className='Block'>
                 <h1 className='Titles'>De comédien à codeur !</h1>
                 <br/>
-                    <p>Proinde die funestis interrogationibus praestituto imaginarius iudex equitum resedit magister adhibitis aliis iam quae essent agenda praedoctis, et adsistebant hinc inde notarii, quid quaesitum esset, quidve responsum, cursim ad Caesarem perferentes, cuius imperio truci, stimulis reginae exsertantis aurem subinde per aulaeum, nec diluere obiecta permissi nec defensi periere conplures.</p>
-
-                    <p>Accedebant enim eius asperitati, ubi inminuta vel laesa amplitudo imperii dicebatur, et iracundae suspicionum quantitati proximorum cruentae blanditiae exaggerantium incidentia et dolere inpendio simulantium, si principis periclitetur vita, a cuius salute velut filo pendere statum orbis terrarum fictis vocibus exclamabant.</p>
-
-                    <p>Nihil est enim virtute amabilius, nihil quod magis adliciat ad diligendum, quippe cum propter virtutem et probitatem etiam eos, quos numquam vidimus, quodam modo diligamus. Quis est qui C. Fabrici, M'. Curi non cum caritate aliqua benevola memoriam usurpet, quos numquam viderit? quis autem est, qui Tarquinium Superbum, qui Sp. Cassium, Sp. Maelium non oderit? Cum duobus ducibus de imperio in Italia est decertatum, Pyrrho et Hannibale; ab altero propter probitatem eius non nimis alienos animos habemus, alterum propter crudelitatem semper haec civitas oderit.</p>
-
-                    <p>Proinde die funestis interrogationibus praestituto imaginarius iudex equitum resedit magister adhibitis aliis iam quae essent agenda praedoctis, et adsistebant hinc inde notarii, quid quaesitum esset, quidve responsum, cursim ad Caesarem perferentes, cuius imperio truci, stimulis reginae exsertantis aurem subinde per aulaeum, nec diluere obiecta permissi nec defensi periere conplures.</p>
+                    <p>Depuis mon plus jeune âge, j'ai deux passions : Le Théâtre et l'Informatique. J'ai eu la chance de pouvoir faire le métier de comédien pendant 9 ans et aujourd'hui j'ai décidé de me consacrer pleinement à ma deuxième passion !</p>
+                    <p>Jusqu'à présent, je croyais que le métier de développeur m'était inaccessible : Il fallait avoir suivi un cursus scolaire scientifique et des études post-bac en IUT ou école d'ingénieurs. Avec un baccalauréat Sciences Médico-Sociales et un diplôme d'éducateur, j'étais loin de pouvoir prétendre à de telles formations...</p>
+                    <p>Mais, depuis peu, de nouvelles écoles ont vu le jour et proposent de former de futurs développeur web en quelques mois ( et sans conditions de diplômes ) ; une aubaine pour des candidats ayant un profil similaire au mien !</p>
+                    <p>J'ai donc décidé d'intégrer, au mois de février, une formation de 5 mois au sein de la Wild Code School. Cette école nous apprend le métier de développeur web : Nous choisissons un langage (pour ma part, le JavaScript) et un framework (j'ai choisi la librairie 'React'). Nous avons aussi un certain nombres de cours sur du back-end (NodeJs, Mysql, Express), l'agilité (SCRUM), etc.</p>
+                    <p>Ces 5 mois sont très intensifs mais passionnants ! On apprend beaucoup de choses et j'ai hâte de pouvoir solidifier toutes ces bases à la sortie de la formation ! Je suis d'ailleurs en recherche d'un stage ou CDI en tant que développeur web junior dès le mois d'août, donc n'hésitez pas à me contacter, je serai enchanté de faire votre connaissance ! </p>
                 </div>
             </div>
         );

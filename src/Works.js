@@ -30,7 +30,6 @@ class Works extends Component {
                             <CardBody className='CardBody'>
                                 <CardTitle className='titleReal'>Plateforme mobile d'e-Learning</CardTitle>
                                 <CardText>Réalisation en équipe d'une application mobile en Javascript/React (8 semaines) pour un client réel.</CardText>
-                                <NavLink to='/works'><Button className='buttonColor'>En savoir +</Button></NavLink>
                             </CardBody>
                         </Card>
                         <Card>
