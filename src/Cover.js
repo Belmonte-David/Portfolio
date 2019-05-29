@@ -15,13 +15,9 @@ class Cover extends Component {
             <div>
                 <NavBar/> 
                 <div> 
-                    <br />
-                    <br />
-                    <br />                    
-                    <div  className='Cover'>                        
+                   <div  className='Cover'>                        
                         <ImageAvatars  className='Avatar'/>
-                        <br />
-                        <h1 >David Belmonte</h1>
+                        <h1 className='CoverTitle'>David Belmonte</h1>
                         <h3 >Développeur Web Junior Javascript/React</h3>
                     </div>
                 </div>

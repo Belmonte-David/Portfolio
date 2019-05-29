@@ -6,7 +6,7 @@ import {
 import './App.css';
 import Paques from './images/Paques.png';
 import Yoshilogo from './images/Yoshilogo1.png';
-import PokeReact from './images/Pokereact.png';
+import PokeReact1 from './images/Pokereact1.png';
 import Appmobile from './images/Appmobile.png';
 
 class Works extends Component {
@@ -26,14 +26,14 @@ class Works extends Component {
                     <br />
                     <CardGroup>
                     <Card>
-                            <CardImg top width="100%" src={Appmobile} alt="Card image cap" />
+                            <CardImg top width="100%" src={Appmobile} alt="Card image cap"/>
                             <CardBody className='CardBody'>
                                 <CardTitle className='titleReal'>Plateforme mobile d'e-Learning</CardTitle>
                                 <CardText>Réalisation en équipe d'une application mobile en Javascript/React (8 semaines) pour un client réel.</CardText>
                             </CardBody>
                         </Card>
                         <Card>
-                            <CardImg top width="100%" src={PokeReact} alt="Card image cap" />
+                            <CardImg top width="100%" src={PokeReact1} alt="Card image cap" />
                             <CardBody className='CardBody' >
                                 <CardTitle className='titleReal'>PokeReact</CardTitle>
                                 <CardText>Réalisation en équipe d’un jeu vidéo multijoueur Pokémon en Javascript/React (5 semaines). </CardText>
