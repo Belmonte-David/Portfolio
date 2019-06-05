@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import NavBar from './NavBar';
 import ImageAvatars from './ImagesAvatars';
-
+import Grid from '@material-ui/core/Grid';
 
 class Cover extends Component {
     constructor(props) {
@@ -9,19 +9,16 @@ class Cover extends Component {
         this.state = {}
     }
 
-
     render() {
         return (
-            <div>
-                <NavBar/> 
-                <div> 
-                   <div  className='Cover'>                        
-                        <ImageAvatars  className='Avatar'/>
+            <Grid >             
+                <NavBar/>                 
+                <div className='Cover'> 
+                        <ImageAvatars />                        
                         <h1 className='CoverTitle'>David Belmonte</h1>
-                        <h3 >Développeur Web Junior Javascript/React</h3>
-                    </div>
-                </div>
-            </div>
+                        <h3 >Développeur Web Junior Javascript/React</h3>                                         
+                </div>           
+            </Grid>
         );
     }
 }

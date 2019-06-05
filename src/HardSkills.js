@@ -37,25 +37,25 @@ function HardSkills(props) {
     <Grid item xs={12} md={6}>
       <ListItem alignItems="flex-start">
         <ListItemAvatar>
-          <Avatar alt="Remy Sharp" src={Html5} />
+          <Avatar alt="Html5" src={Html5} />
         </ListItemAvatar>
         <ListItemText><p className='TexteSkills'>HTML5</p></ListItemText>
           </ListItem>
           <ListItem alignItems="flex-start">
                   <ListItemAvatar>
-                    <Avatar alt="Remy Sharp" src={Css3} />
+                    <Avatar alt="Css3" src={Css3} />
           </ListItemAvatar>
           <ListItemText><p className='TexteSkills'>CSS3</p></ListItemText>
           </ListItem>
           <ListItem alignItems="flex-start">
         <ListItemAvatar>
-          <Avatar alt="Remy Sharp" src={JavascriptReact} />
+          <Avatar alt="React" src={JavascriptReact} />
         </ListItemAvatar>
-        <ListItemText><p className='TexteSkills'>Javascript/React</p></ListItemText>
+        <ListItemText><p className='TexteSkills'>React</p></ListItemText>
           </ListItem>
           <ListItem alignItems="flex-start">
         <ListItemAvatar>
-          <Avatar alt="Remy Sharp" src={Redux} />
+          <Avatar alt="Redux" src={Redux} />
         </ListItemAvatar>
         <ListItemText><p className='TexteSkills'>Redux</p></ListItemText>
           </ListItem>
@@ -63,25 +63,25 @@ function HardSkills(props) {
           <Grid item xs={12} md={6}>
           <ListItem alignItems="flex-start">
         <ListItemAvatar>
-          <Avatar alt="Remy Sharp" src={NodeJs} />
+          <Avatar alt="NodeJs" src={NodeJs} />
         </ListItemAvatar>
         <ListItemText><p className='TexteSkills'>Node.js</p></ListItemText>
           </ListItem>
           <ListItem alignItems="flex-start">
         <ListItemAvatar>
-          <Avatar alt="Remy Sharp" src={MySql} />
+          <Avatar alt="MySql" src={MySql} />
         </ListItemAvatar>
         <ListItemText><p className='TexteSkills'>MySQL</p></ListItemText>
           </ListItem>
           <ListItem alignItems="flex-start">
         <ListItemAvatar>
-          <Avatar alt="Remy Sharp" src={Git} />
+          <Avatar alt="Git" src={Git} />
         </ListItemAvatar>
         <ListItemText><p className='TexteSkills'>Git</p></ListItemText>
           </ListItem>
           <ListItem alignItems="flex-start">
         <ListItemAvatar>
-          <Avatar alt="Remy Sharp" src={Scrum} />
+          <Avatar alt="Scrum" src={Scrum} />
         </ListItemAvatar>
         <ListItemText><p className='TexteSkills'>Scrum</p></ListItemText>
           </ListItem>
