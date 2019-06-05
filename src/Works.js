@@ -53,14 +53,16 @@ import Typography from '@material-ui/core/Typography';
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
-          Plateforme mobile d'e-Learning
+          E-Learning
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
           Réalisation en équipe d'une application mobile de e-learning en Javascript/React (8 semaines) pour un client réel.
           </Typography>          
         </CardContent>
       </CardActionArea>
-     
+      <CardActions>
+      <NavLink to='/Works'><Button className='buttonColor'>Prochainement</Button></NavLink>         
+      </CardActions>
     </Card>     
     </Grid>   
     <Grid item xs={12} sm={6}>

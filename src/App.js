@@ -3,6 +3,7 @@ import Cover from './Cover';
 import History from './History';
 import Skills from './Skills';
 import Works from './Works';
+import BurgerMenu from './BurgerMenu';
 import './App.css';
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
@@ -34,6 +35,7 @@ class App extends Component {
      window.location.href = 'https://bepatest.github.io/Yoshi-save-the-baby/'; 
      return null;
 }}/>
+          <Route path="/burgerMenu" component={BurgerMenu} />
         </Switch>      
       </BrowserRouter>
             
