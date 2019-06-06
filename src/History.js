@@ -9,7 +9,7 @@ class History extends Component {
     }
     render() {
         return (
-            <div>
+            <div className='content'>
                 <NavBar />                
                 <div className='Block'>
                 <h1 className='Titles'>De comédien à codeur !</h1>
