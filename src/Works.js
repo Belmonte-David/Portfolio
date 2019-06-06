@@ -15,21 +15,30 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
+
                  
   const useStyles = theme => ({
     card: {
+      backgroundColor: '#000000BB',
       maxWidth: 345,
+      
     },
     media: {
       height: 140,
+      
     },
     root: {
       flexGrow: 1,
+      
     },
     container: {
       display: 'grid',
-      gridTemplateColumns: 'repeat(12, 1fr)',     
-    }, 
+      gridTemplateColumns: 'repeat(12, 1fr)', 
+          
+    },
+    typo: {
+      color:'rgb(173, 173, 173)'
+    } 
     });
   
   function Works(props) {
@@ -52,10 +61,10 @@ import Typography from '@material-ui/core/Typography';
           title="e-learning"
         />
         <CardContent>
-          <Typography gutterBottom variant="h5" component="h2">
+          <Typography gutterBottom variant="h5" component="h2" className={classes.typo}>
           E-Learning
           </Typography>
-          <Typography variant="body2" color="textSecondary" component="p">
+          <Typography variant="body2" color="textSecondary" component="p" className={classes.typo}>
           Réalisation en équipe d'une application mobile de e-learning en Javascript/React (8 semaines) pour un client réel.
           </Typography>          
         </CardContent>
@@ -74,15 +83,15 @@ import Typography from '@material-ui/core/Typography';
           title="PokeReact"
         />
         <CardContent className='CardContent'>
-          <Typography gutterBottom variant="h5" component="h2">
+          <Typography gutterBottom variant="h5" component="h2" className={classes.typo}>
           PokeReact
           </Typography>
-          <Typography variant="body2" color="textSecondary" component="p">
+          <Typography variant="body2" color="textSecondary" component="p" className={classes.typo}>
           Réalisation en équipe d’un jeu vidéo multijoueur Pokémon en Javascript/React (5 semaines). 
           </Typography>
         </CardContent>
       </CardActionArea>
-      <CardActions>
+      <CardActions className={classes.typo}>
       <NavLink to='/pokeReact'><Button className='buttonColor'>En savoir +</Button></NavLink>
     </CardActions>
     </Card>
@@ -96,15 +105,15 @@ import Typography from '@material-ui/core/Typography';
           title="EggsPlosive"
         />
         <CardContent className='CardContent'>
-          <Typography gutterBottom variant="h5" component="h2">
+          <Typography gutterBottom variant="h5" component="h2" className={classes.typo}>
           EggsPlosives
           </Typography>
-          <Typography variant="body2" color="textSecondary" component="p">
+          <Typography variant="body2" color="textSecondary" component="p" className={classes.typo}>
           Hackaton 24h : Réalisation en équipe d’un jeu en Javascript/React à partir d’une API sur le thème de Pâques. 
           </Typography>
         </CardContent>
       </CardActionArea>
-      <CardActions>
+      <CardActions className={classes.typo}>
       <NavLink to='/eggsPlosive'><Button className='buttonColor'>En savoir +</Button></NavLink>         
       </CardActions>
     </Card>
@@ -118,15 +127,15 @@ import Typography from '@material-ui/core/Typography';
           title="Yoshi"
         />
         <CardContent className='CardContent'>
-          <Typography gutterBottom variant="h5" component="h2">
+          <Typography gutterBottom variant="h5" component="h2" className={classes.typo}>
           Yoshi : Save the Baby !
           </Typography>
-          <Typography variant="body2" color="textSecondary" component="p">
+          <Typography variant="body2" color="textSecondary" component="p" className={classes.typo}>
           Réalisation en équipe d’un site de vente en ligne (3 semaines). Utilisation d'Html, CSS, Bootstrap et Javascript Vanilla.
           </Typography>
         </CardContent>
       </CardActionArea>
-      <CardActions>
+      <CardActions className={classes.typo}>
       <NavLink to='/yoshi'><Button className='buttonColor'>En savoir +</Button></NavLink>
       </CardActions>
     </Card>
