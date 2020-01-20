@@ -68,10 +68,7 @@ import Typography from '@material-ui/core/Typography';
           Réalisation en équipe d'une application mobile de e-learning en Javascript/React (8 semaines) pour un client réel.
           </Typography>          
         </CardContent>
-      </CardActionArea>
-      <CardActions>
-      <NavLink to='/Works'><Button className='buttonColor'>Prochainement</Button></NavLink>         
-      </CardActions>
+      </CardActionArea>     
     </Card>     
     </Grid>   
     <Grid item xs={12} sm={6}>
@@ -112,10 +109,7 @@ import Typography from '@material-ui/core/Typography';
           Hackaton 24h : Réalisation en équipe d’un jeu en Javascript/React à partir d’une API sur le thème de Pâques. 
           </Typography>
         </CardContent>
-      </CardActionArea>
-      <CardActions className={classes.typo}>
-      <NavLink to='/eggsPlosive'><Button className='buttonColor'>En savoir +</Button></NavLink>         
-      </CardActions>
+      </CardActionArea>      
     </Card>
     </Grid>
     <Grid item xs={12} sm={6}>   
@@ -134,10 +128,7 @@ import Typography from '@material-ui/core/Typography';
           Réalisation en équipe d’un site de vente en ligne (3 semaines). Utilisation d'Html, CSS, Bootstrap et Javascript Vanilla.
           </Typography>
         </CardContent>
-      </CardActionArea>
-      <CardActions className={classes.typo}>
-      <NavLink to='/yoshi'><Button className='buttonColor'>En savoir +</Button></NavLink>
-      </CardActions>
+      </CardActionArea>      
     </Card>
     </Grid>
     </Grid>
