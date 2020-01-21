@@ -4,6 +4,7 @@ import Paques from './images/Paques.png';
 import Yoshilogo from './images/Yoshilogo1.png';
 import PokeReact1 from './images/Pokereact1.png';
 import Appmobile from './images/Appmobile.png';
+import coverProducer from './images/coverProducer.png';
 import './App.css';
 import { NavLink } from 'react-router-dom';
 import NavBar from './NavBar';
@@ -52,6 +53,25 @@ import Typography from '@material-ui/core/Typography';
         <br />
         <br />
         <Grid container >
+    <Grid item xs={12} sm={6}>
+       <Card className={classes.card}>
+      <CardActionArea>
+        <CardMedia
+          className={classes.media}
+          image={coverProducer}
+          title="Green Terroir"
+        />
+        <CardContent>
+          <Typography gutterBottom variant="h5" component="h2" className={classes.typo}>
+          Green Terroir
+          </Typography>
+          <Typography variant="body2" color="textSecondary" component="p" className={classes.typo}>
+          Réalisation d'une application mobile en React Native avec, pour le Backend, Node.js et MongoDB.
+          </Typography>          
+        </CardContent>
+      </CardActionArea>     
+    </Card>     
+    </Grid>  
         <Grid item xs={12} sm={6}>
        <Card className={classes.card}>
       <CardActionArea>
@@ -107,25 +127,6 @@ import Typography from '@material-ui/core/Typography';
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p" className={classes.typo}>
           Hackaton 24h : Réalisation en équipe d’un jeu en Javascript/React à partir d’une API sur le thème de Pâques. 
-          </Typography>
-        </CardContent>
-      </CardActionArea>      
-    </Card>
-    </Grid>
-    <Grid item xs={12} sm={6}>   
-    <Card className={classes.card}>
-      <CardActionArea>
-        <CardMedia
-          className={classes.media}
-          image={Yoshilogo}
-          title="Yoshi"
-        />
-        <CardContent className='CardContent'>
-          <Typography gutterBottom variant="h5" component="h2" className={classes.typo}>
-          Yoshi : Save the Baby !
-          </Typography>
-          <Typography variant="body2" color="textSecondary" component="p" className={classes.typo}>
-          Réalisation en équipe d’un site de vente en ligne (3 semaines). Utilisation d'Html, CSS, Bootstrap et Javascript Vanilla.
           </Typography>
         </CardContent>
       </CardActionArea>      
