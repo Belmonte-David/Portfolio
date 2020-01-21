@@ -14,6 +14,8 @@ import NodeJs from './images/NodeJs.png';
 import MySql from './images/MySql.png';
 import Git from './images/Git.png';
 import Scrum from './images/Scrum.png';
+import MongoDB from './images/MongoDB.png';
+import React-Native from './images/React-Native.png';
 import Grid from '@material-ui/core/Grid';
 import './App.css';
 
@@ -34,33 +36,39 @@ function HardSkills(props) {
   return (
     <List className={classes.root}>
     <Grid container spacing={16}>
-    <Grid item xs={12} md={6}>
-      <ListItem alignItems="flex-start">
-        <ListItemAvatar>
-          <Avatar alt="Html5" src={Html5} />
-        </ListItemAvatar>
-        <ListItemText><p className='TexteSkills'>HTML5</p></ListItemText>
-          </ListItem>
-          <ListItem alignItems="flex-start">
-                  <ListItemAvatar>
-                    <Avatar alt="Css3" src={Css3} />
-          </ListItemAvatar>
-          <ListItemText><p className='TexteSkills'>CSS3</p></ListItemText>
-          </ListItem>
-          <ListItem alignItems="flex-start">
+    <Grid item xs={12} md={6}> 
+    <ListItem alignItems="flex-start">
         <ListItemAvatar>
           <Avatar alt="React" src={JavascriptReact} />
         </ListItemAvatar>
         <ListItemText><p className='TexteSkills'>React</p></ListItemText>
           </ListItem>
-          <ListItem alignItems="flex-start">
+    <ListItem alignItems="flex-start">
+        <ListItemAvatar>
+           <Avatar alt="React-Native" src={React-Native} />
+        </ListItemAvatar>
+        <ListItemText><p className='TexteSkills'>React-Native</p></ListItemText>
+         </ListItem>          
+    <ListItem alignItems="flex-start">
         <ListItemAvatar>
           <Avatar alt="Redux" src={Redux} />
         </ListItemAvatar>
         <ListItemText><p className='TexteSkills'>Redux</p></ListItemText>
           </ListItem>
+    <ListItem alignItems="flex-start">
+        <ListItemAvatar>
+          <Avatar alt="Html5" src={Html5} />
+        </ListItemAvatar>
+        <ListItemText><p className='TexteSkills'>HTML5</p></ListItemText>
+          </ListItem>
           </Grid>
           <Grid item xs={12} md={6}>
+    <ListItem alignItems="flex-start">
+        <ListItemAvatar>
+          <Avatar alt="MongoDB" src={MongoDB} />
+        </ListItemAvatar>
+        <ListItemText><p className='TexteSkills'>MongoDB</p></ListItemText>
+          </ListItem>
           <ListItem alignItems="flex-start">
         <ListItemAvatar>
           <Avatar alt="NodeJs" src={NodeJs} />
@@ -84,6 +92,12 @@ function HardSkills(props) {
           <Avatar alt="Scrum" src={Scrum} />
         </ListItemAvatar>
         <ListItemText><p className='TexteSkills'>Scrum</p></ListItemText>
+          </ListItem>
+    <ListItem alignItems="flex-start">
+                  <ListItemAvatar>
+                    <Avatar alt="Css3" src={Css3} />
+          </ListItemAvatar>
+          <ListItemText><p className='TexteSkills'>CSS3</p></ListItemText>
           </ListItem>
           </Grid>         
           </Grid>
