@@ -41,7 +41,7 @@
   margin-right: 25%;
   padding: 5%;
   color: rgb(173, 173, 173);
-  flex-Grow: 1;
+  flex-Grow: 1;  
 }
   
 .Titles{
@@ -52,12 +52,13 @@
 }
 
 .TexteSkills{
+  font-size: 0.9em;
   color: rgb(173, 173, 173);
   font-family: 'Abel', sans-serif;
 }
 
 .SkillsTitles{
-  text-align: center;
+  text-align: center;  
 }
 
 
