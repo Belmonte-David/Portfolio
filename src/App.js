@@ -26,19 +26,10 @@ class App extends Component {
      window.location.href = 'https://wildcodeschool.github.io/lyon-0219-react-PokeReact/#/'; 
      return null;
 }}/>
-          <Route path='/eggsPlosive' component={() => { 
-     window.location.href = 'http://eggsplosive.herokuapp.com/'; 
-     return null;
-}}/>
-          <Route path='/portfolio' component={Cover}/>
-          <Route path='/yoshi' component={() => { 
-     window.location.href = 'https://bepatest.github.io/Yoshi-save-the-baby/'; 
-     return null;
-}}/>
-          <Route path="/burgerMenu" component={BurgerMenu} />
+         <Route path='/portfolio' component={Cover}/>
+         <Route path="/burgerMenu" component={BurgerMenu} />
         </Switch>      
-      </BrowserRouter>
-            
+      </BrowserRouter>            
       </div>       
     );
   }
