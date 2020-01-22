@@ -10,10 +10,10 @@ class History extends Component {
     render() {
         return (
             <div className='content'>
-                <NavBar />                
+                <NavBar />
                 <div className='Block'>
-                <h1 className='Titles'>De comédien à codeur !</h1>
-                <br/>
+                    <h1 className='Titles'>De comédien à codeur !</h1>
+                    <br />
                     <p >Depuis mon plus jeune âge, j'ai deux passions : Le Théâtre et l'Informatique. J'ai eu la chance de pouvoir faire le métier de comédien pendant 9 ans et aujourd'hui j'ai décidé de me consacrer pleinement à ma deuxième passion !</p>
                     <p>Jusqu'à présent, je croyais que le métier de développeur m'était inaccessible : Il fallait avoir suivi un cursus scolaire scientifique et des études post-bac en IUT ou école d'ingénieurs. Avec un baccalauréat Sciences Médico-Sociales et un diplôme d'éducateur, j'étais loin de pouvoir prétendre à de telles formations...</p>
                     <p>Mais, depuis peu, de nouvelles écoles ont vu le jour et proposent de former de futurs développeurs web en quelques mois ( et sans condition de diplômes ) ; une aubaine pour des candidats ayant un profil similaire au mien !</p>
